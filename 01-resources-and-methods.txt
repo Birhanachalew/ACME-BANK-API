@@ -1,0 +1,39 @@
+Translating categories and actions into resources and methods - 
+
+CUSTOMERS:    Resource _______________
+
+i.  Get list of all customers in the bank    				Resource _______________	Method _______________
+
+ii. Register a new customer     					Resource _______________	Method _______________
+
+iii.Get customer information for a specific customer ID    		Resource _______________	Method _______________
+
+iv. Update a customer information for a specific customer ID    	Resource _______________	Method _______________
+
+v.  Delete a customer  with a specific customer ID			Resource _______________	Method _______________
+
+
+ACCOUNTS:     Resource _______________ 
+
+i.  Get list of all accounts for a specific customer ID  		Resource _______________	Method _______________
+
+ii. Create a new account						Resource _______________	Method _______________
+
+iii.Get account information for a specific account ID  		Resource _______________	Method _______________
+
+iv. Delete an account with a specific account ID          		Resource _______________	Method _______________
+
+v.  Update account information for a specific account ID        	Resource _______________	Method _______________
+
+
+TRANSACTIONS: Resource _______________
+
+i.  Create a new transaction						Resource _______________	Method _______________
+
+ii. Get transactions for a specific account ID 			Resource _______________	Method _______________
+
+iii.Get transaction information for a specific transaction ID	Resource _______________	Method _______________
+
+
+
+

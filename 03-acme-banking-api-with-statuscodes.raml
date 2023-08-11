@@ -1,0 +1,80 @@
+#%RAML 1.0
+title: ACME Banking API
+mediaType: application/json
+
+/customers:
+  get:
+    responses: 
+      200:
+        body:
+  post:
+    body:
+    responses: 
+      201:
+        headers: 
+          Location:
+        body: 
+  /{customer_id}:
+    get:
+      responses: 
+        200:
+          body:
+    patch:
+      body:
+      responses: 
+        204:
+    delete:
+      responses: 
+        200:
+          body:
+    /accounts:
+      get:
+        responses: 
+          200:
+            body:
+
+/accounts:
+  post:
+    body:
+    responses: 
+      201:
+        headers: 
+          Location:
+        body: 
+  /{account_id}:
+    get:
+      responses: 
+        200:
+          body:
+    put:
+      body:
+      responses: 
+        200:
+          body:
+        201:
+          headers: 
+            Location:
+          body: 
+    delete:
+      responses: 
+        200:
+          body:
+    /transactions:
+      get:
+        responses: 
+          200:
+            body:
+
+/transactions:
+  post:
+    body:
+    responses: 
+      201:
+        headers: 
+          Location:
+        body: 
+  /{transaction_id}:
+    get:
+      responses: 
+        200:
+          body:

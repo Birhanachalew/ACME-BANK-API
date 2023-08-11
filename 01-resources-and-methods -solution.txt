@@ -1,0 +1,39 @@
+Translating categories and actions into resources and methods - 
+
+CUSTOMERS:    Resource  /customers
+
+i.  Get list of all customers in the bank    				Resource  /customers	Method GET
+
+ii. Register a new customer     					Resource /customers 	Method POST
+
+iii.Get customer information for a specific customer ID    		Resource /customers/{id}	Method GET
+
+iv. Update a customer information for a specific customer ID    	Resource  /customers/{id}	Method PATCH
+
+v.  Delete a customer  with a specific customer ID			Resource  /customers/{id}	Method  DELETE
+
+
+ACCOUNTS:     Resource /accounts 
+
+i.  Get list of all accounts for a specific customer ID  		Resource /customers/{id}/accounts	Method  GET
+
+ii. Create a new account						Resource /accounts	Method POST
+
+iii.Get account information for a specific account ID  		Resource /accounts/{id}	Method GET
+
+iv. Delete an account with a specific account ID          		Resource /accounts/{id}	Method DELETE
+
+v.  Update account information for a specific account ID        	Resource /accounts/{id}	Method PUT
+
+
+TRANSACTIONS: Resource _______________
+
+i.  Create a new transaction						Resource  /transactions	Method POST
+
+ii. Get transactions for a specific account ID 			Resource /accounts/{id}/transactions	Method GET
+
+iii.Get transaction information for a specific transaction ID	Resource /transactions/{id}	Method  GET
+
+
+
+

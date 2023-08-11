@@ -1,0 +1,26 @@
+#%RAML 1.0
+title: ACME Banking API
+
+/customers:
+  get:
+  post:
+  /{customer_id}:
+    get:
+    patch:
+    delete:
+    /accounts:
+      get:
+
+/accounts:
+  post:
+  /{account_id}:
+    get:
+    put:
+    delete:
+    /transactions:
+      get:
+
+/transactions:
+  post:
+  /{transaction_id}:
+    get:
